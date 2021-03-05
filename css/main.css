@@ -1,0 +1,183 @@
+
+/* ------------------------------------------------- Multi Select Box Start --------------------------------------------------- */
+
+.selectField {
+  margin: 50px auto;
+  width: 400px;
+  height: 100px;
+}
+
+.selectField label {
+  color: rgb(50, 28, 92);
+  font-size: 11px;
+}
+
+.selectField .btn-group button.btn {
+  border: 1px solid #c4c4c4;
+  background: #4a2785;
+  color: white;
+  box-shadow: none;
+  padding: 10px 8px;
+  width: 400px;
+  border-radius: 4px;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+/*
+#balance .bootstrap-select .dropdown-menu {
+  z-index: 10;
+} */
+
+.bootstrap-select button.btn {
+  outline: none !important;
+  appearance: none !important;
+  border: none !important;
+}
+
+.bootstrap-select .dropdown-menu .popover-title {
+  padding: 10px;
+  background:#4a2785;
+  color: #fff;
+}
+
+.bootstrap-select .dropdown-menu .popover-title button.close {
+  color: white !important;
+  text-shadow: none !important;
+}
+
+.bootstrap-select .dropdown-menu {
+  scrollbar-width: thin;
+  scrollbar-color: #4a2785 transparent;
+  max-width: 155%;
+}
+
+.bootstrap-select .dropdown-menu::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  background-clip: content-box;
+}
+
+.bootstrap-select .dropdown-menu::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+.bootstrap-select .dropdown-menu::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #4a2785;
+}
+
+.bootstrap-select button.btn .bs-caret .caret {
+  background: rgba(255, 255, 255, 0.205) !important;
+}
+
+.bootstrap-select
+  .dropdown-menu
+  ul
+  li
+  a:not(.bootstrap-select .dropdown-menu li.disabled a, .bootstrap-select
+    .dropdown-menu
+    li.selected
+    a):hover {
+      background: #4a2785 !important;
+  color: white;
+}
+
+.bootstrap-select .dropdown-menu ul li {
+  padding-bottom: 5px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #4a2785 transparent;
+}
+
+.bootstrap-select .dropdown-menu.inner {
+  overflow-y: auto !important;
+  max-height: 300px !important;
+}
+
+.bootstrap-select
+  .dropdown-menu
+  ul
+  li:not(.bootstrap-select .dropdown-menu ul li.disabled) {
+  padding: 0 5px;
+}
+
+.bootstrap-select .dropdown-menu ul li::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.bootstrap-select .dropdown-menu ul li::-webkit-scrollbar-track {
+  background: #fefefe;
+  margin: 0;
+}
+
+.bootstrap-select .dropdown-menu ul li::-webkit-scrollbar-thumb {
+  background: #4a2785;
+}
+
+.bootstrap-select .dropdown-menu ul li a {
+  font-size: 14px;
+  color: #2f2f30;
+}
+/*
+#balance .bootstrap-select .dropdown-menu ul li.disabled a {
+  font-size: 15px;
+} */
+
+.bootstrap-select .dropdown-menu ul li:last-child {
+  padding: 6px 0;
+}
+
+.bootstrap-select .dropdown-menu ul li a[aria-selected="true"] {
+  background: #4a2785 !important;
+  color: white;
+}
+
+.bootstrap-select .dropdown-menu .bs-searchbox input[type="text"] {
+  box-shadow: none !important;
+}
+
+.bootstrap-select .dropdown-menu .glyphicon.glyphicon-ok.check-mark::before {
+  content: "\f066" !important;
+}
+
+.bootstrap-select .dropdown-menu .glyphicon.glyphicon-ok.check-mark::after {
+  content: "" !important;
+}
+
+@media (max-width: 768px) {
+  .selectField .btn-group button.btn {
+    font-size: 16px;
+  }
+
+  .bootstrap-select .dropdown-menu {
+    width: 400px;
+    overflow-y: auto;
+  }
+  .bootstrap-select .dropdown-menu ul li a span {
+    font-size: 12px;
+  }
+}
+.dropdown-menu.hide {
+  display: none !important;
+}
+
+.dropdown-menu.show {
+  display: block !important;
+}
+
+.bootstrap-select .dropdown-menu li.dropdown-header span {
+  padding: 0 8px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: #000;
+}
+
+.bootstrap-select .dropdown-menu li.disabled:hover a {
+  background: white !important;
+  cursor: auto !important;
+}
+
+/* ------------------------------------------------- Multi Select Box End --------------------------------------------------- */
